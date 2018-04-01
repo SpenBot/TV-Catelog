@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<!--- HEAD ---------------------------------------------------------------->
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>TV-Catalog API Front-End</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+  </head>
+
+
+
+<!--- BODY ---------------------------------------------------------------->
+
+  <body>
+
+    <main>
+
+
+<!--- UI ------------------------------------------------------------------>
+
+      <div id="appUI">
+
+        <header>
+          <h1>TV-CATALOG</h1>
+          <img id="tvLogo" src="./assets/tv-logo-green.png" height="40px" width="40px"/>
+        </header>
+
+        <form id="searchForm" autocomplete="off">
+          <input id="showSearch" type="text" placeholder="Search for a title...">
+        </form>
+
+        <h3 id="searchResultsCount" style="visibility: hidden;">results count<h3>
+
+      </div>
+
+<!--- SEARCH RESULTS --------------------------------------------------------->
+
+      <div id="searchResults" style="display: none;"></div>
+
+
+<!--- SHOW DETAILS ----------------------------------------------------------->
+
+      <div id="showDetails" style="display: none;"></div>
+
+    </main>
+
+<!--- JAVASCRIPT ------------------------------------------------------------->
+    <script src="js/tv_browser.js"></script>
+
+  </body>
+
+
+</html>
+
+
+
+
+<!-- END  ---------------------------------------------------------------->

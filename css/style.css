@@ -1,0 +1,202 @@
+
+
+body {
+  font-family: 'Varela Round', sans-serif;
+
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+main {
+  width: 800px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* #### UI ######################################################### */
+
+#appUI {
+  margin: 30px auto 10px;
+}
+
+header {
+  border: solid white 3px;
+  border-radius: 15px;
+  width: 300px;
+  padding: 1px 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(0, 255, 190);
+}
+
+#tvLogo {
+  margin-top: -12px;
+}
+
+#searchForm {
+  margin: 20px auto 0;
+}
+
+#showSearch  {
+  height: 60px;
+  width: 600px;
+  padding: 0 10px;
+  font-size: 38px;
+}
+
+
+/* #### SEARCH RESULTS ################################################## */
+
+#searchResultsCount {
+  font-size: 24px;
+  margin: 15px auto 5px;
+}
+
+
+/* #searchResults {
+  height: 400px;
+  width: 800px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  background-color: rgb(30, 30, 30);
+
+  margin: 0 auto;
+}
+
+.showSearchItem {
+  height: 360px;
+  width: 300px;
+  background-color: white;
+  color: black;
+
+  display: inline-block;
+  margin: 5px 10px;
+} */
+
+
+#searchResults {
+  height: 400px;
+  width: 800px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  background-color: rgb(45, 45, 45);
+
+  margin: 0 auto;
+}
+
+#searchResults::-webkit-scrollbar {
+  background-color: rgb(200, 200, 200);
+}
+
+#searchResults::-webkit-scrollbar-thumb {
+  /* border-radius: 3px; */
+  background-color: rgba(0,0,0,.4);
+  /* -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5); */
+}
+
+
+.showSearchItem {
+  height: 340px;
+  width: 280px;
+  background-color: white;
+  color: black;
+
+  flex: 0 0 auto;
+  margin: 15px 10px 10px 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.showSearchItem img {
+  height: 70%;
+  width: 70%;
+}
+
+.showSearchItem h4 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.showSearchItem:hover {
+  cursor: pointer;
+  /* height: 347px;
+  width: 286px; */
+  transform: scale(1.01);
+  box-shadow: 10px 10px 10px black;
+}
+
+
+
+
+/* #### SHOW DETAILS ################################################## */
+
+#showDetails {
+  height: 400px;
+  width: 800px;
+  background-color: rgb(45, 45, 45);
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: auto;
+}
+
+#showDetails::-webkit-scrollbar {
+  background-color: rgb(200, 200, 200);
+}
+
+#showDetails::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,.4);
+}
+
+.goBackDiv {
+  margin: 15px auto 20px;
+  font-size: 24px;
+  padding: 10px;
+  width: 160px;
+  background-color: rgb(0, 255, 190);
+  color: white;
+}
+
+.goBackDiv:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(0, 255, 190);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #### END ################################################## */
