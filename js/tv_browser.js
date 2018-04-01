@@ -16,8 +16,8 @@ const searchResultsCount = document.getElementById('searchResultsCount')
 //// GLOBAL VARIABLES /////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
 
-const url = 'http://api.tvmaze.com/search/shows?q='
-const urlSingle = 'http://api.tvmaze.com/singlesearch/shows?q='
+const url = 'https://api.tvmaze.com/search/shows?q='
+const urlSingle = 'https://api.tvmaze.com/singlesearch/shows?q='
 
 
 
